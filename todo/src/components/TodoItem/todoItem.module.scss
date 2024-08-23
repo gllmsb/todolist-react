@@ -1,0 +1,43 @@
+@use '../../style/variables' as *;
+
+
+.todoItem {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    position: relative; 
+    text-align: left;
+  }
+  
+  .todoText {
+    flex-grow: 1; 
+    padding-right: 10px;
+  }
+  
+  .deleteContainer {
+    display: flex;
+    align-items: center;
+    height: 100%; 
+    position: absolute; 
+    right: 0; 
+  }
+  
+  .verticalLine {
+    width: 1px;
+    background-color: black;
+    height: 100%; 
+    margin-right: 2rem; 
+  }
+  
+  .deleteButton {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+  }
+  
+  .deleteIcon {
+    width: 20px;
+    height: 20px;
+    margin-right: 1rem;
+  }
